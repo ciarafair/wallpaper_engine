@@ -1,0 +1,40 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Procedurally generatedf ASCII lavalamp",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"font": {
+				"index" : 0,
+				"text" : "Font",
+				"type" : "textinput",
+				"value": "monospace"
+			},
+			"characters": {
+				"index" : 1,
+				"text" : "Characters",
+				"type" : "textinput",
+				"value": ".:-=+*#%@"
+			},
+			"count": {
+				"index" : 2,
+				"text" : "Blob Count",
+				"type" : "textinput",
+				"value": "50"
+			},
+			"size": {
+				"index" : 3,
+				"text" : "Blob Size",
+				"type" : "textinput",
+				"value": "75"
+			}
+		}
+	},
+	"tags" : [ "Abstract" ],
+	"title" : "ASCII lavalamp",
+	"type" : "web",
+	"version" : 1,
+	"visibility" : "public"
+}
