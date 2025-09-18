@@ -1,0 +1,34 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "A trail of the Minecraft enchantment table glyphs",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"characters": {
+				"index" : 1,
+				"text" : "Background Characters",
+				"type" : "textinput",
+				"value": "abcdefghijklmnopqrstuvwxyz"
+			},
+			"font": {
+				"index" : 2,
+				"text" : "Font",
+				"type" : "textinput",
+				"value": "Minecraftia"
+			},
+			"font_size": {
+				"index" : 5,
+				"text" : "Font Size",
+				"type" : "textinput",
+				"value": "15"
+			}
+		}
+	},
+	"tags" : [ "Abstract" ],
+	"title" : "ASCII Minecraft enchantment trail",
+	"type" : "web",
+	"version" : 1,
+	"visibility" : "public"
+}

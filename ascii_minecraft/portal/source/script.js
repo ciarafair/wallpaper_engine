@@ -1,4 +1,4 @@
-const canvas = document.getElementById('trailCanvas');
+const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 let fontSize = 15;
@@ -139,7 +139,7 @@ function createRipple(x, y) {
         radius: 0,
         speed: 2,
         isActive: true,
-        decay: 0.99,
+        decay: 0.98,
     };
 }
 

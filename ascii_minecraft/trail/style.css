@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Minecraftia';
+  src: url(./public/minecraftia.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Enchantment Proper'; 
+  src: url(./public/enchantment_proper.ttf) format('truetype');
+}
+
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.character {
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  text-align: center;
+}

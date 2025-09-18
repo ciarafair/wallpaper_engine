@@ -1,4 +1,4 @@
-const canvas = document.getElementById('lavaLampCanvas');
+const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 var blobCount = 50
